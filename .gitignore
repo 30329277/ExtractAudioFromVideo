@@ -1,0 +1,19 @@
+# Ignore large model files
+models/deepspeech-0.9.3-models-zh-CN.pbmm
+models/deepspeech-0.9.3-models-zh-CN.scorer
+
+# Ignore virtual environment
+venv/
+
+# Optionally, ignore other common files and directories
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.log
+*.pot
+*.pyc
+*.mo
+*.so

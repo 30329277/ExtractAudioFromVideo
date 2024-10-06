@@ -1,0 +1,11 @@
+moviepy==1.0.3
+deepspeech==0.9.3
+tensorflow==2.3.0
+numpy
+wave==0.0.2
+futures==3.1.1
+tk==0.1.0
+imageio==2.9.0
+decorator==4.4.2
+requests==2.25.1
+tqdm==4.62.3
