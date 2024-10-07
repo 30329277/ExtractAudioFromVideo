@@ -1,6 +1,8 @@
 # Ignore large model files
 models/deepspeech-0.9.3-models-zh-CN.pbmm
 models/deepspeech-0.9.3-models-zh-CN.scorer
+models/deepspeech-0.9.3-models.pbmm
+models/deepspeech-0.9.3-models.scorer
 
 # Ignore virtual environment
 venv/

@@ -24,12 +24,14 @@ def transcribe_audio_chunk(model, chunk):
 def transcribe_audio(audio_filename, num_threads=4):
     try:
         # 加载 DeepSpeech 模型
-        model_file_path = 'models\\deepspeech-0.9.3-models-zh-CN.pbmm'
+        # model_file_path = 'models\\deepspeech-0.9.3-models-zh-CN.pbmm'
+        model_file_path = 'models\\deepspeech-0.9.3-models.pbmm'
         model = deepspeech.Model(model_file_path)
         logging.info(f"DeepSpeech model loaded from {model_file_path}")
 
         # 可选：加载 scorer 文件以提高准确性
-        scorer_file_path = 'models\\deepspeech-0.9.3-models-zh-CN.scorer'
+        # scorer_file_path = 'models\\deepspeech-0.9.3-models-zh-CN.scorer'
+        scorer_file_path = 'models\\deepspeech-0.9.3-models.scorer'
         model.enableExternalScorer(scorer_file_path)
         logging.info(f"Scorer enabled from {scorer_file_path}")
 
